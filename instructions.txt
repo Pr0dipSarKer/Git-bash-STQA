@@ -1,0 +1,14 @@
+insert codes per repository creation.
+git remote add origin https://github.com/your-username/your-repository.git
+
+# Create your README.md or any initial file
+echo "# Your Repository Title" >> README.md
+
+# Add the file to staging area
+git add README.md
+
+# Commit the file
+git commit -m "Initial commit"
+
+# Push the changes to the remote repository
+git push -u origin master
